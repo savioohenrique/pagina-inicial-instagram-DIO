@@ -68,10 +68,12 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    margin-top: 0.5rem;
 }
 
 .profile-photo img {
-    height: 7rem;
+    height: 8rem;
+    
 }
 
 .instagram-login {
@@ -79,6 +81,11 @@ body {
     color: #fff;
     padding: 8px;
     border-radius: 4px;
+    font-weight: bold;
+    width: 75%;
+    text-align: center;
+    margin-top: 1rem;
+
 }
 
 .instagram-logout {
@@ -133,7 +140,7 @@ body {
     }
 }
 
-@media (max-width: 670px){
+@media (max-width: 700px){
     body {
         background-color: #fff;
     }
